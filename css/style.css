@@ -1,0 +1,27 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passFiled{
+
+    position: relative;
+}
+.passFiled input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid #888 ;
+    padding: 0px 20px ;
+}
+.passFiled button{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+
+}
